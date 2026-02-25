@@ -1,3 +1,3 @@
-firstname = "David"
+firstname = " Cristian"
+print ("your name is" + firstname)
 print(type(firstname))
-print("your name is {firstname}")
