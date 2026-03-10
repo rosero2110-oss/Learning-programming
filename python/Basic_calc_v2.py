@@ -5,9 +5,9 @@ num1 = 0
 num2 = 0
 #inputs
 print("plase, enter first number: ")
-num1 = input ()
+num1 = int(input (num1))
 print("plase, enter first number: ")
-num2 = input ()
+num2 = int(input (num2))
 add = num1+num2
 subs = num1+num2
 mult = num1+num2
