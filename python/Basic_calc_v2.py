@@ -17,7 +17,7 @@ num1 = int(input (num1))
 print("plase, enter first number: ")
 num2 = int(input (num2))
 add = num1+num2
-subs = num1+num2
-mult = num1+num2
-div = num1+num2
+subs = num1-num2
+mult = num1*num2
+div = num1/num2
 print("the addition is: ", add)
