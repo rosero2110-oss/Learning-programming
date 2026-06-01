@@ -48,8 +48,14 @@ while menu_status:
         case 1:
             os.system("clear")
             print("### New Client ###")
-            ident = input("Client identification: ")
-            client_id.append(ident)
+            while True:
+                ident = input("Client identification: ")
+
+                if ident in client_id:
+                    print("This identification already exists")
+                else:
+                    client_id.append(ident)
+                    break  
             full_name = input("Client full name: ")
             client_name.append(full_name)
             address = input("Client address: ")
@@ -67,8 +73,14 @@ while menu_status:
         case 2:
             os.system("clear")
             print("### New Product ###")
-            code = input("Product code: ")
-            product_code.append(code)
+            while True:
+                code = input("Product code: ")
+
+                if code in product_code:
+                    print("This product code already exists")
+                else:
+                    product_code.append(code)
+                    break
             name = input("Name of the product: ")
             product_name.append(name)
             quantity = input("Quantity of the product: ")
